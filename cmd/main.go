@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yhhit/funcaptcha"
+	"github.com/lyy0709/funcaptcha"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	//	return
 	//}
 	token := "155179050361eafc5.5354759702|r=us-west-2|meta=3|metabgclr=transparent|metaiconclr=%23757575|guitextcolor=%23000000|pk=0A1D34FC-659D-4E23-B17B-694DCFCF6A6C|at=40|ag=101|cdn_url=https%3A%2F%2Ftcr9i.chat.openai.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-us-west-2.arkoselabs.com|surl=https%3A%2F%2Ftcr9i.chat.openai.com|smurl=https%3A%2F%2Ftcr9i.chat.openai.com%2Fcdn%2Ffc%2Fassets%2Fstyle-manager"
-	hex := "fbfc14b0d793c6ef8359e0e4b4a91f67"
+	hex := "6c9d6e9be9aa044cc5ce9548b4abe1b0"
 	// Start a challenge
 	session, err := funcaptcha.StartChallenge(token, hex)
 	if err != nil {

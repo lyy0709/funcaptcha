@@ -195,8 +195,8 @@ func _readHARFromJson(harData HARData) {
 
 //goland:noinspection GoUnhandledErrorResult
 func init() {
-	initVer = "1.5.4"
-	initHex = "cd12da708fe6cbe6e068918c38de2ad9" // should be fixed associated with version.
+	initVer = "2.4.5"
+	initHex = "6c9d6e9be9aa044cc5ce9548b4abe1b0" // should be fixed associated with version.
 	readHARFromFile()
 	cli, _ := tls_client.NewHttpClient(tls_client.NewNoopLogger(), options...)
 	client = &cli
