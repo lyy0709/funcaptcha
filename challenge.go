@@ -181,7 +181,7 @@ func StartChallenge(full_session, hex string) (*Session, error) {
 		Hex:          hex,
 	}
 	session.Headers = headers
-	session.Headers.Set("Referer", fmt.Sprintf("https://client-api.arkoselabs.com/fc/assets/ec-game-core/game-core/2.4.5/standard/index.html?session=%s", strings.Replace(full_session, "|", "&", -1)))
+	session.Headers.Set("Referer", fmt.Sprintf("https://client-api.arkoselabs.com/fc/assets/ec-game-core/game-core/1.20.0/standard/index.html?session=%s", strings.Replace(full_session, "|", "&", -1)))
 	session.ChallengeLogger = challengeLogger{
 		Sid:           sid,
 		SessionToken:  session_token,
