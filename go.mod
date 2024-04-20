@@ -1,8 +1,6 @@
-module github.com/yhhit/funcaptcha
+module github.com/lyy0709/funcaptcha
 
-go 1.21
-
-toolchain go1.22.0
+go 1.21.3
 
 require (
 	github.com/acheong08/endless v0.0.0-20230615162514-90545c7793fd

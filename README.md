@@ -6,7 +6,7 @@ Usage for OpenAI
 import (
 	"fmt"
 
-	"github.com/yhhit/funcaptcha"
+	"github.com/lyy0709/funcaptcha"
 )
 
 func main() {
